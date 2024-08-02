@@ -1,0 +1,42 @@
+.wrapperColor {
+    background: #F9F9F7;
+}
+
+.wrapperItem {
+    display: flex;
+    width: 1293px;
+    margin: auto;
+    padding: 85px 0px;
+    gap: 90px;
+}
+
+.imgItem {
+    width:745px;
+    height: 566px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 36px;
+
+}
+
+.textItem {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 24px;
+}
+
+.textItem h1 {
+    font: 500 55px Playfair Display;
+    color: var(--neutral-07, #2C2F24);
+}
+
+.textItem h2 {
+    font: 500 18px DM Sans;
+    color: var(--neutral-07, #2C2F24);
+}
+
+.textItem p {
+    font: 400 16px DM Sans;
+    color: var(--neutral-06, #414536);
+}

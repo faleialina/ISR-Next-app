@@ -1,0 +1,38 @@
+.colorinfo {
+	background: #474747;
+}
+
+.colorNav {
+	background: #f9f9f7;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: #f9f9f7;
+	padding: 9px 0;
+	justify-content: space-between;
+	max-width: 1293px;
+	margin: auto;
+}
+
+.logomain {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.navigation h1 {
+	color: #474747;
+	font: 600 42px Playfair Display;
+	font-style: italic;
+}
+
+.elemNavig {
+	display: flex;
+	color: var(--neutral-07, #2c2f24);
+	font: 500 16px Playfair Display;
+	font-style: italic;
+	gap: 40px;
+}
